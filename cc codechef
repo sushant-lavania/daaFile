@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	int B1,B2,B3;
+	cin>>B1>>B2>>B3;
+	if(((B1+B2+B3) == 3) or ((B1+B2+B3) ==2))
+	cout<<"NOT NOW"<<endl;
+	else 
+	cout<<"WATER FILLING TIME"<<endl;
+	}
+	return 0;
+}
